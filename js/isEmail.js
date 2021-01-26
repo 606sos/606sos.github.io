@@ -1,6 +1,6 @@
 function isEmail() {
     var str = document.getElementById("email").value;
-    if (isEmpty(str)) status.innerHTML = alert('ты ниче не ввел');
+    if (isEmpty(str)) status.innerHTML = alert('вы заказали письку');
     else alert(str);
   }
   function isEmpty(str) {
