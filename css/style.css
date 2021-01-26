@@ -6,7 +6,8 @@ body {
   font-size: 14px;
   font-weight: 300;
   line-height: 25px;
-  color: #3b4045;
+  color: #ffffff;
+  background-color: #1a191df6;
   font-family: "Inter", sans-serif;
   -webkit-font-smoothing: antialiased;
 }
@@ -51,16 +52,23 @@ p {
   line-height: 25px;
   margin: 0px;
 }
+.rgbgrad {
+  background: linear-gradient(to right, orange , yellow, green, cyan, blue, violet);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 60px;
+  line-height: 60px;
+}
 
 .coment-text {
   font-family: "Poiret One";
-  color: rgba(0, 0, 0, 0.55);
+  color: rgb(255, 255, 255);
   /* font-size: 10px; */
 }
 
 .huetatvar {
   font-family: "Poiret One";
-  color: rgba(255, 255, 255, 0);
+  color: rgb(255, 255, 255);
 }
 
 .animpic {
@@ -70,6 +78,17 @@ p {
   transition: all 0.5s ease-in-out;
 }
 .animpic:hover {
+  transform: scale(1.2);
+}
+
+.animpicdildo {
+  border-radius: 100px; /* Радиус скругления */
+  /* border: 3px solid rgb(0, 0, 0); Параметры рамки */
+  margin-top: 10%;
+  transition: all 0.5s ease-in-out;
+}
+
+.animpicdildo:hover {
   transform: scale(1.2);
 }
 
@@ -139,7 +158,7 @@ a:active {
   padding-bottom: 70px;
 }
 .heading h2 {
-  color: #3c3c3c;
+  color: #ffffff;
   padding-bottom: 15px;
   text-transform: capitalize;
   font-weight: 700;
@@ -153,7 +172,7 @@ a:active {
 }
 
 .subheading {
-  color: #3c3c3c;
+  color: #ffffff;
   padding-bottom: 15px;
   text-transform: capitalize;
   font-weight: 500;
@@ -279,7 +298,7 @@ a:active {
   display: inline-block;
 }
 .logo h1 {
-  color: #444;
+  color: rgb(255, 255, 255);
   font-size: 25px;
   margin: 0;
   line-height: 1;
@@ -293,7 +312,7 @@ a:active {
   margin: 0 10px;
 }
 .menu li a {
-  color: #444;
+  color: rgb(255, 255, 255);
   font-size: 14px;
   font-weight: bold;
 }
